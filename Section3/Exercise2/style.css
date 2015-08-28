@@ -1,0 +1,77 @@
+html {
+    background-color: grey;
+}
+
+body {
+    font-family: 'Slabo 27px', serif;
+}
+
+article {
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: #ff8489;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #a8ff82;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+}
+
+h3 {
+    padding: 5px;
+    text-align: right;
+    vertical-align: text-bottom;
+    font-size: 70%;
+    font-style: italic;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #a8ff82;
+    /* padding: 5px; */
+}
+
+.image, .description, .info {
+    background-color: white;
+    padding: 5px;
+}
+
+.image {
+    display: inline-block;
+    margin: 20px;
+    width: 440px;
+    height: 600px;
+}
+
+.coverart {
+    height: 100%;
+    /* margin: auto; */
+}
+
+img.coverart {
+    text-align: center;
+    align-content: center;
+}
+
+.description {
+    float: right;
+    display: inline-block;
+    margin: 20px;
+    width: 440px;
+    height: 600px;
+}
+
+.info {
+    margin: 20px auto;
+    width: 940px;
+    height: 300px;
+}

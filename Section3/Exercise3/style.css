@@ -1,0 +1,153 @@
+body {
+    font-family: "Arial", sans-serif;
+    width: 100%;
+    /* margin: 0px auto; */
+}
+
+img.microphone {
+    height: 20px;
+    width: 20px;
+    float: right;
+    opacity: 0.7;
+    margin: 3px 0px 2px 0px;
+}
+
+img.microphone:hover {
+    opacity: 0.3;
+}
+
+span.localeSubscript {
+    position: relative;
+    top: 70px;
+    left: 217px;
+    color: grey;
+    font-weight: 800;
+}
+
+article {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.searchBox {
+    width: 670px;
+    height: 27px;
+    border: 1px solid #D8C8C8;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchText {
+    position: relative;
+    top: 5px;
+    left: 3px;
+    color: grey;
+    opacity: 0.8;
+}
+
+header {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.headerButtons li {
+    display: inline;
+    margin-right: 13px;
+    text-decoration: none;
+}
+
+.headerButtons li:hover {
+    text-decoration: underline;
+}
+
+li {
+    font-size: 80%;
+    text-decoration: underline;
+    color: grey;
+    display: inline;
+    margin-left: 8px;
+}
+
+
+.headerButtons li:last-child {
+    color: white;
+    background-color: rgba(23, 108, 237, 0.84);
+    padding: 8px;
+    border-radius: 3px;
+    margin-right: 4px;
+}
+
+.headerButtons li:last-child:hover {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+
+.googleLogo {
+    width: 269px;
+    height: 95px;
+    margin: auto;
+    margin-top: 120px;
+    position: relative;
+    left: -60px;
+}
+
+.footerRight {
+    float: right;
+    display: inline;
+}
+
+.footerLeft {
+    float: left;
+    display: inline;
+
+}
+
+.footerRight li, .footerLeft li {
+    text-decoration: none;
+}
+
+.footerRight li:hover, .footerLeft li:hover {
+    text-decoration: underline;
+}
+
+.searchButtons {
+    margin: 0px auto;
+    width: 237px;
+    margin-top: 20px;
+}
+
+a.button {
+    font-size: 70%;
+    font-weight: 800;
+    color: #504E4E;
+    text-decoration: none;
+    background-color: rgba(206, 201, 201, 0.33);
+    padding: 8px;
+    border: 1px solid #D8C8C8;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+a.button:hover {
+    box-shadow: 0px 1px 1px #888878;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #EFEDED;
+    width: 2000px;
+    height: 80px;
+    border-top: 1px solid #D8C8C8;
+    margin-top: 500px;
+}
+
+ul.footerItems {
+    text-align: left;
+    align: left;
+    float: left;
+}
