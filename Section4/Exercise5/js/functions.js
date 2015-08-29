@@ -266,8 +266,8 @@ function arrangeElements( array )
 
 function beautifyLetters( array )
 {
-   var vowels = 'aeiouy';
-   var consonants = 'bcdfghjklmnpqrstvwxy';
+   var vowels = 'aeiou';
+   var consonants = 'bcdfghjklmnpqrstvwxyz';
 
     array.forEach( 
             function(currentValue, index, array) {
@@ -351,7 +351,7 @@ function arrayToString( array )
 }
 
 console.log(arrayAwesomenator(["a", 6, "B", "F", "*", 8, 78, "J" ]) === "668Abfj");
-//console.log(arrayAwesomenator(["*", "j", 6, "A", "F", "*", 8, "C", "b", "a", 78, "J", 43523, 1111, "r", "q", "y" ]) === "46688AAbcfjjqry");
+console.log(arrayAwesomenator(["*", "j", 6, "A", "F", "*", 8, "C", "b", "a", 78, "J", 43523, 1111, "r", "q", "y" ]) === "46688AAbcfjjqry");
 
 
 
