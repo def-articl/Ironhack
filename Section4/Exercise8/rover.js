@@ -1,3 +1,5 @@
+// Mars Rover Kata: Iteration 1
+
 var promptStr = 'Enter direction:  (N, S, E, W';
 var invStr = 'Can\'t move there! Out of grid';
 
