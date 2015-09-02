@@ -74,6 +74,8 @@ function myRover(playerID, startingPosition) {
                         break;
 
                 }
+            } else {
+                this.invalidInput('Rover broken. You need manual restart.')
             }
         }
     };
@@ -283,13 +285,15 @@ function myRover(playerID, startingPosition) {
         for (var i = 0; i < this.obstacles.length; i++) {
             if (isPositionX === false) {
                 if (this.obstacles[i][0] === this.position[0] && this.obstacles[i][1] === futurePosition) {
-                    console.log('Obstacle on position', this.obstacles[i], '.', 'Terminating...');
+                    this.invalidInput('Obstacle on position ' + '[' + this.obstacles[i]
+                            + ']' + '.' + ' Terminating...');
                     // terminate the movement do not process additional moves
                     this.stopping = true;
                 }
             } else if (isPositionX === true) {
                 if (this.obstacles[i][0] === futurePosition && this.obstacles[i][1] === this.position[1]) {
-                    console.log('Obstacle on position', this.obstacles[i], '.', 'Terminating...');
+                    this.invalidInput('Obstacle on position ' + '[' + this.obstacles[i]
+                            + ']' + '.' + ' Terminating...');
                     this.stopping = true;
                 }
             } else {
