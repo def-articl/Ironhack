@@ -32,12 +32,12 @@ window.onload = function() {
         var toDoList = document.getElementsByClassName('todo-list-items')[0];
         var doneList = document.getElementsByClassName('done-list-items')[0];
         var removedItem = toDoList.getElementsByTagName('li')[0];
-        var firstDoneLiItem = doneList.getElementsByClassName('done').firstChild;
+        var firstDoneLiItem = doneList.getElementsByClassName('done')[0];
 
         toDoList.removeChild(removedItem);
+        removedItem.className = "done";
 
         doneList.insertBefore(removedItem, firstDoneLiItem); 
-        removedItem.style.textDecoration = "line-through";
     }
 
     }
