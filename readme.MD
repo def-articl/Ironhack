@@ -35,3 +35,4 @@ Below each sections you have work directories with their website description.
     6. `Exercise6/`     *Exercise - Quiz time!*
     7. `Exercise7/`     *The art of debugging*
     8. `Exercise8/`     *Exercise - Mars Rover kata*
+    9. `Exercise9/`     *DOM Exercise: To-Do List*
